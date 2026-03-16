@@ -9,7 +9,7 @@ cd dantrix
 chmod +x dantrix.sh
 sh dantrix.sh
 cd ..
-rm -r dantrix -y
+sudo rm -r dantrix
 ```
 
 ### Start dantrix Pauseskærm:
