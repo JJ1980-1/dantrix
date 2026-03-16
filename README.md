@@ -17,3 +17,19 @@ rm -r dantrix
 ```bash
 dan
 ```
+
+### Du kan ændre hastigheden på Linje 81
+
+```bash
+sudo nano /usr/bin/dan
+```
+
+### Ga til linje 81 (allernederst).
+
+1.00 = 1 Sekundt
+
+```text
+	    # Small delay
+    81	    sleep 0.15
+    82	done
+```
